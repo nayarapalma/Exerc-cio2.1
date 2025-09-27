@@ -1,0 +1,437 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOLqPf8LFERk9h2sjNL/UCp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nayarapalma/Exerc-cio2/blob/main/Exerc%C3%ADcio2todasasrespostas.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g0G_rXSeAhES",
+        "outputId": "a3a14676-9d87-4dff-a6b6-aa0d398d7bc2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe o primeiro número:5\n",
+            "informe o segundo número:7\n",
+            "informe o terceiro número:9\n",
+            "5 7 9\n"
+          ]
+        }
+      ],
+      "source": [
+        "num1 =int(input(\"informe o primeiro número:\"))\n",
+        "num2 =int(input(\"informe o segundo número:\"))\n",
+        "num3 =int(input(\"informe o terceiro número:\"))\n",
+        "print(num1,num2,num3)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome1 = input(\"informe o nome\")\n",
+        "nome2 = input(\"informe o nome\")\n",
+        "nome3 = input(\"informe o nome\")\n",
+        "nome4 = input(\"informe o nome\")\n",
+        "nome5 = input(\"informe o nome\")\n",
+        "print(nome1,nome2,nome3,nome4,nome5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2ZPCzjcWB_E1",
+        "outputId": "a5d2fb1c-8596-4ac9-a9d9-b2f6584d19a9"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe o nomerafael\n",
+            "informe o nomelucas\n",
+            "informe o nomejoao\n",
+            "informe o nomeedro\n",
+            "informe o nomejunior\n",
+            "rafael lucas joao edro junior\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"informe seu nome\")\n",
+        "sobrenome = input(\"informe seu sobrenome\")\n",
+        "print(\"Olá,\",nome,sobrenome,\"!Seja bem-vindo!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "o9SwuV48CewI",
+        "outputId": "8ac4e03d-1aa6-406a-bd2d-c409c3bd402e"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe seu nomeJoão \n",
+            "informe seu sobrenomeSilva\n",
+            "Olá, João  Silva !Seja bem-vindo!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cidade = input(\"informe o nome da sua cidade\")\n",
+        "UF = input(\"informe o seu estado\")\n",
+        "print(\"A Cidade de\",cidade,\"fica localizada na\",UF,)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IOUC5DVBC-qL",
+        "outputId": "2d514dfd-4afe-488b-bef6-0f48146478ff"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe o nome da sua cidadeFeira de Santana \n",
+            "informe o seu estadoBA\n",
+            "A Cidade de Feira de Santana  fica localizada na BA\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ano_nascimento = int(input(\"seu ano de nascimento\"))\n",
+        "ano_atual = int(input(\"informe o ano que estamos\"))\n",
+        "idade = ano_atual - ano_nascimento\n",
+        "print(\"você tem\",idade,\"anos!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oRq7GildGHVo",
+        "outputId": "065ec2d9-0417-43e2-c23f-accba3f142b3"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "seu ano de nascimento2005\n",
+            "informe o ano que estamos2025\n",
+            "você tem 20 anos!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "nome = input(\"Nome completo: \")\n",
+        "idade = input(\"Idade: \")\n",
+        "endereco = input(\"Endereço: \")\n",
+        "profissao = input(\"Profissão: \")\n",
+        "\n",
+        "print(\"\\nCadastro:\")\n",
+        "print(f\"Nome: {nome}\")\n",
+        "print(f\"Idade: {idade}\")\n",
+        "print(f\"Endereço: {endereco}\")\n",
+        "print(f\"Profissão: {profissao}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UQnyEnDtHTin",
+        "outputId": "46554d97-04c8-4b70-f9c9-e03579e32fdc"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nome completo: Nayara Palma de Almeida \n",
+            "Idade: 20\n",
+            "Endereço: Feira de Santana \n",
+            "Profissão: Atendente\n",
+            "\n",
+            "Cadastro:\n",
+            "Nome: Nayara Palma de Almeida \n",
+            "Idade: 20\n",
+            "Endereço: Feira de Santana \n",
+            "Profissão: Atendente\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "aalimento1 = input(\"primeiro alimento\")\n",
+        "alimento2 = input(\"segundo alimento\")\n",
+        "alimento3 = input(\"terceiro alimento\")\n",
+        "print(\"Você escolheu levar:\",alimento1,alimento2,alimento3,\"para a ilha\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fs7PO1pRHpWV",
+        "outputId": "180b9d32-4cf6-40d0-ec22-2338d0865e26"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "primeiro alimentosuco\n",
+            "segundo alimentofeijao\n",
+            "terceiro alimentorroz\n",
+            "Você escolheu levar: suco feijao rroz para a ilha\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"Nome: \")\n",
+        "produto = input(\"Produto: \")\n",
+        "quantidade = int(input(\"Quantidade: \"))\n",
+        "preco = float(input(\"Preço: \"))\n",
+        "\n",
+        "total = quantidade * preco\n",
+        "\n",
+        "print(f\"\\nCompra realizada por {nome}\")\n",
+        "print(f\"Produto: {produto}\")\n",
+        "print(f\"Quantidade: {quantidade}\")\n",
+        "print(f\"Valor unitário: R$ {preco:.2f}\")\n",
+        "print(f\"Total: R$ {total:.2f}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tAxwkeWxINj2",
+        "outputId": "74ec2109-82fd-4354-fa19-1fef8bb03226"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nome: nayara\n",
+            "Produto: arroz\n",
+            "Quantidade: 6\n",
+            "Preço: 80\n",
+            "\n",
+            "Compra realizada por nayara\n",
+            "Produto: arroz\n",
+            "Quantidade: 6\n",
+            "Valor unitário: R$ 80.00\n",
+            "Total: R$ 480.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = int(input(\"Número: \"))\n",
+        "\n",
+        "print(\"Multiplicação:\")\n",
+        "print(f\"{numero} × 1 = {numero * 1}\")\n",
+        "print(f\"{numero} × 2 = {numero * 2}\")\n",
+        "print(f\"{numero} × 3 = {numero * 3}\")\n",
+        "print(f\"{numero} × 4 = {numero * 4}\")\n",
+        "print(f\"{numero} × 5 = {numero * 5}\")\n",
+        "print(f\"{numero} × 6 = {numero * 6}\")\n",
+        "print(f\"{numero} × 7 = {numero * 7}\")\n",
+        "print(f\"{numero} × 8 = {numero * 8}\")\n",
+        "print(f\"{numero} × 9 = {numero * 9}\")\n",
+        "print(f\"{numero} × 10 = {numero * 10}\")\n",
+        "\n",
+        "print(\"\\nDivisão:\")\n",
+        "print(f\"{numero} ÷ 1 = {numero / 1:.2f}\")\n",
+        "print(f\"{numero} ÷ 2 = {numero / 2:.2f}\")\n",
+        "print(f\"{numero} ÷ 3 = {numero / 3:.2f}\")\n",
+        "print(f\"{numero} ÷ 4 = {numero / 4:.2f}\")\n",
+        "print(f\"{numero} ÷ 5 = {numero / 5:.2f}\")\n",
+        "print(f\"{numero} ÷ 6 = {numero / 6:.2f}\")\n",
+        "print(f\"{numero} ÷ 7 = {numero / 7:.2f}\")\n",
+        "print(f\"{numero} ÷ 8 = {numero / 8:.2f}\")\n",
+        "print(f\"{numero} ÷ 9 = {numero / 9:.2f}\")\n",
+        "print(f\"{numero} ÷ 10 = {numero / 10:.2f}\")\n",
+        "\n",
+        "print(\"\\nAdição:\")\n",
+        "print(f\"{numero} + 1 = {numero + 1}\")\n",
+        "print(f\"{numero} + 2 = {numero + 2}\")\n",
+        "print(f\"{numero} + 3 = {numero + 3}\")\n",
+        "print(f\"{numero} + 4 = {numero + 4}\")\n",
+        "print(f\"{numero} + 5 = {numero + 5}\")\n",
+        "print(f\"{numero} + 6 = {numero + 6}\")\n",
+        "print(f\"{numero} + 7 = {numero + 7}\")\n",
+        "print(f\"{numero} + 8 = {numero + 8}\")\n",
+        "print(f\"{numero} + 9 = {numero + 9}\")\n",
+        "print(f\"{numero} + 10 = {numero + 10}\")\n",
+        "\n",
+        "print(\"\\nSubtração:\")\n",
+        "print(f\"{numero} - 1 = {numero - 1}\")\n",
+        "print(f\"{numero} - 2 = {numero - 2}\")\n",
+        "print(f\"{numero} - 3 = {numero - 3}\")\n",
+        "print(f\"{numero} - 4 = {numero - 4}\")\n",
+        "print(f\"{numero} - 5 = {numero - 5}\")\n",
+        "print(f\"{numero} - 6 = {numero - 6}\")\n",
+        "print(f\"{numero} - 7 = {numero - 7}\")\n",
+        "print(f\"{numero} - 8 = {numero - 8}\")\n",
+        "print(f\"{numero} - 9 = {numero - 9}\")\n",
+        "print(f\"{numero} - 10 = {numero - 10}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oAUC710wIZvq",
+        "outputId": "39f0901f-c363-47ea-afc0-bcfb41d37406"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Número: 10\n",
+            "Multiplicação:\n",
+            "10 × 1 = 10\n",
+            "10 × 2 = 20\n",
+            "10 × 3 = 30\n",
+            "10 × 4 = 40\n",
+            "10 × 5 = 50\n",
+            "10 × 6 = 60\n",
+            "10 × 7 = 70\n",
+            "10 × 8 = 80\n",
+            "10 × 9 = 90\n",
+            "10 × 10 = 100\n",
+            "\n",
+            "Divisão:\n",
+            "10 ÷ 1 = 10.00\n",
+            "10 ÷ 2 = 5.00\n",
+            "10 ÷ 3 = 3.33\n",
+            "10 ÷ 4 = 2.50\n",
+            "10 ÷ 5 = 2.00\n",
+            "10 ÷ 6 = 1.67\n",
+            "10 ÷ 7 = 1.43\n",
+            "10 ÷ 8 = 1.25\n",
+            "10 ÷ 9 = 1.11\n",
+            "10 ÷ 10 = 1.00\n",
+            "\n",
+            "Adição:\n",
+            "10 + 1 = 11\n",
+            "10 + 2 = 12\n",
+            "10 + 3 = 13\n",
+            "10 + 4 = 14\n",
+            "10 + 5 = 15\n",
+            "10 + 6 = 16\n",
+            "10 + 7 = 17\n",
+            "10 + 8 = 18\n",
+            "10 + 9 = 19\n",
+            "10 + 10 = 20\n",
+            "\n",
+            "Subtração:\n",
+            "10 - 1 = 9\n",
+            "10 - 2 = 8\n",
+            "10 - 3 = 7\n",
+            "10 - 4 = 6\n",
+            "10 - 5 = 5\n",
+            "10 - 6 = 4\n",
+            "10 - 7 = 3\n",
+            "10 - 8 = 2\n",
+            "10 - 9 = 1\n",
+            "10 - 10 = 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"nome:\")\n",
+        "idade = input(\"idade:\")\n",
+        "curso = input(\"curso\")\n",
+        "evento = input(\"evento\")\n",
+        "print(\"confirmado!\",nome,idade,\"anos,estudante de\",curso,\"está inscrito no evento\",evento,\"!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1--GciSZIgnG",
+        "outputId": "24b56675-34b2-484d-c4a0-65bb52394802"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nome:Nayara\n",
+            "idade:20\n",
+            "cursot.i\n",
+            "eventorobótica \n",
+            "confirmado! Nayara 20 anos,estudante de t.i está inscrito no evento robótica  !\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
